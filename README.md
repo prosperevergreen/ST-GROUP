@@ -25,7 +25,7 @@ $ npm install
 3. compile `/src` files from ES6 to older version `/lib` for testing
 
 ```
-$ npm run install
+$ npm run compile
 ```
 4. Test library
 
