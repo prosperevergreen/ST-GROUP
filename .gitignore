@@ -166,10 +166,10 @@ lib-cov
 # nyc test coverage
 .nyc_output
 
-# Eslint
-*.eslintrc.json
-
 *.drawio
 
 # JSDoc file report
 jsdoc_report.html
+
+# .gitignore - the files to not push via git
+lib
