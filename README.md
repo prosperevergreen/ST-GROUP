@@ -11,3 +11,24 @@ and LICENSE file.
 Source code folder contains a separate license file that must **NOT** be removed under any circumstances!
 Removing this license file directly violates terms and conditions of the software under testing.
 Individuals who remove or modify the license file will also carry the consequences.
+
+## Setup:
+
+1. Clone project
+
+2. Install npm packages
+
+```
+$ npm install
+```
+
+3. compile `/src` files from ES6 to older version `/lib` for testing
+
+```
+$ npm run install
+```
+4. Test library
+
+```
+$ npm run test
+```
