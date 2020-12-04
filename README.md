@@ -22,12 +22,7 @@ Individuals who remove or modify the license file will also carry the consequenc
 $ npm install
 ```
 
-3. compile `/src` files from ES6 to older version `/lib` for testing
-
-```
-$ npm run compile
-```
-4. Test library
+3. Test library
 
 ```
 $ npm run test

@@ -3,12 +3,9 @@ node_js:
   - "stable"
 install:
   - npm install
-before_script:
-  - npm run compile
 script:
   - npm run test
 cache:
   directories:
     - "node_modules"
-    - "lib"
     - "src"
