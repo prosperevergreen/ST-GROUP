@@ -1,8 +1,11 @@
-const expect = require("chai").expect;
-const add = require("../../lib/add").default;
+import pkg from 'chai';
+const {expect} = pkg;
 
-describe("add.js test", () => {
-	it("Should equal added values", () => {
+import add from "../../src/add.js";
+
+
+describe("add.js test cases", () => {
+	it("Should add two numbers", () => {
 		for (let step = 0; step < 10; step++) {
 			const num1 = Math.floor(Math.random() * 11000);
 			const num2 = Math.floor(Math.random() * 11000);
