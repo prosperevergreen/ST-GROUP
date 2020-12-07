@@ -29,3 +29,8 @@ $ npm install
 ```
 $ npm run test
 ```
+4. Coverage report
+
+```
+$ npm run coverage
+```
