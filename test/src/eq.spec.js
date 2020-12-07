@@ -1,6 +1,6 @@
-import pkg from 'chai';
-import chai from 'chai';
-const {expect} = pkg;
+import pkg from "chai";
+import chai from "chai";
+const { expect } = pkg;
 const assert = chai.assert;
 
 import eq from "../../src/eq.js";
@@ -19,10 +19,4 @@ describe("Type equality Testing",()=>{
         const result = eq('a',parseInt('a'));
         expect(result).to.equal(false);
         
-    });
-   
-   
-        
-
-
     });
