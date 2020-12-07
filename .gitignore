@@ -165,7 +165,6 @@ lib-cov
 
 # nyc test coverage
 .nyc_output
-.nycrc
 
 *.drawio
 

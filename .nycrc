@@ -1,0 +1,15 @@
+{
+  "all": true,
+  "require": ["@babel/register"],
+  "include": [
+    "test/**/**.spec.js"
+  ],
+  "exclude": [
+  ],
+  "reporter": [
+      "text",
+      "lcov",
+      "html",
+      "json"
+    ]
+}
