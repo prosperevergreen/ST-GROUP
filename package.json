@@ -5,16 +5,17 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "nyc --reporter=text --reporter=html mocha test/src --exit",
-    "nyc": "nyc --reporter=text --reporter=lcov --reporter=html --reporter=json npm run test",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
-    "cover": "nyc --reporter=text npm run test"
+    "test": "mocha -require babel-register test/src --exit",
+    "coverage": "nyc --reporter=text --reporter=lcov --reporter=html --reporter=json npm run test",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
     "@babel/register": "^7.12.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "coveralls": "^3.1.0",
     "eslint": "^7.14.0",
