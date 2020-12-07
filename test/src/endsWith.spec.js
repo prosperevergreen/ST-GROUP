@@ -6,19 +6,19 @@ const assert = chai.assert;
 
 import endsWith from "../../src/EndsWith.js";
 
-describe("endswith unit Testing",()=>{
-    it("Checking an element in String without index", function(){
-    const result = endsWith('qwe', 'e');
-    assert.equal(result,true);
+describe("Endswith - Unit Testing",()=>{
+    it("Checking element index", function(){
+    const result = endsWith('wxy', 'y');
+    expect(result).to.equal(true);
     });
-    it("Checking an element with fasle",function(){
-        const result = endsWith('qwe', 'q');
-        assert.equal(result,false);
+    it("Checking an element false case",function(){
+        const result = endsWith('wxy', 'w');
+        expect(result).to.equal(false);
         
     });
-    it("Checking an element with index ",function(){
-        const result = endsWith('qwe', 'q',1);
-        assert.deep.equal(result,true);
+    it("Checking an element  index ",function(){
+        const result = endsWith('wxy', 'w',1);
+        expect(result).to.deep.equal(true);
         
     });
    
