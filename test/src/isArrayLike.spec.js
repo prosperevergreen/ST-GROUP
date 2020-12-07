@@ -8,7 +8,7 @@ describe("isArrayLike.js test cases", () => {
 
         const testCases = [
 			{ test: [1, 2, 3], result: true },
-			{ test: () => "Hello World", result: false },
+			{ test: Function, result: false },
 			{ test: 'abc', result: true },
         ];
         
