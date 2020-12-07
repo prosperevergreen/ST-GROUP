@@ -17,6 +17,6 @@ describe("Type equality Testing",()=>{
     });
     it("Checking two elements with different type ",function(){
         const result = eq('a',parseInt('a'));
-        expect(result).to.equal(false);
-        
-    });
+        expect(result).to.equal(false);  
+    })
+});

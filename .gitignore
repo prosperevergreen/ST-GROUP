@@ -174,3 +174,5 @@ jsdoc_report.html
 
 # .gitignore - the files to not push via git
 lib
+
+.DS_Store
