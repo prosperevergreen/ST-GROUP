@@ -13,12 +13,10 @@ const users = [
 describe("Filter - Unit testing",()=>{
  it("First", function(){
  const result = filter(users, ({ active }) => active);
- console.log(result);
  expect(result).to.deep.equal([ { user: 'john', active: true } ]);
  });
  it("Second",function(){
      const result = filter(users, ({ active }) => !active);
-     console.log(result);
      expect(result).to.deep.equal([ { user: 'tom', active: false } ]
      );
     

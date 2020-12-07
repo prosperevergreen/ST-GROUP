@@ -22,7 +22,7 @@ describe("Clamp", () => {
     it("Fourth case ",function(){
         try{
             const result = clamp(-3,undefined,undefined);
-           console.log(result);
+          
         }catch(e){
             console.log(e);
         }

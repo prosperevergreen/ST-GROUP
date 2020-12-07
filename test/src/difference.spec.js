@@ -6,12 +6,12 @@ import difference from "../../src/difference.js";
 describe("Difference",()=>{
     it("Return type 1", function(){
     const result = difference([3,4],[2,3]);
-    console.log(result);
+    
     expect(result).to.deep.equal([4]);
     });
     it("Return type error",function(){
         const result = difference([3,4],[2,3,1]);
-        console.log(result);
+       
         expect(result).to.deep.equal([4]);
         
      });
