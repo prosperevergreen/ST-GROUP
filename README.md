@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/prosperevergreen/ST-GROUP/badge.svg?branch=prosper)](https://coveralls.io/github/prosperevergreen/ST-GROUP?branch=prosper)
+
 # Student template
 
 ## Purpose of this repository
