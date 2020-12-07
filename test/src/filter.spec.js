@@ -6,20 +6,20 @@ const assert = chai.assert;
 import filter from "../../src/filter.js"
 
 const users = [
-    { 'user': 'john', 'active': false },
-   { 'user': 'snow',   'active': true }
+    { 'user': 'john', 'active': true },
+   { 'user': 'tom',   'active': false }
   ];
  
-describe("Filter testing",()=>{
- it("first", function(){
+describe("Filter - Unit testing",()=>{
+ it("First", function(){
  const result = filter(users, ({ active }) => active);
  console.log(result);
- assert.equal( result ,[ { user: 'john', active: false } ]);
+ expect(result).to.deep.equal([ { user: 'john', active: true } ]);
  });
- it("second",function(){
+ it("Second",function(){
      const result = filter(users, ({ active }) => !active);
      console.log(result);
-     assert.equal(result, [ { user: 'snow', active: true } ]
+     expect(result).to.deep.equal([ { user: 'tom', active: false } ]
      );
     
  });
