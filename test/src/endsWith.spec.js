@@ -4,7 +4,7 @@ const {expect} = pkg;
 const assert = chai.assert;
 
 
-import endsWith from "../../src/EndsWith.js";
+import endsWith from "../../src/endsWith.js";
 
 describe("Endswith - Unit Testing",()=>{
     it("Checking element index", function(){
