@@ -5,7 +5,11 @@ install:
   - npm install
 script:
   - npm run test
+  - npm run coverage
+  - npm run coveralls
 cache:
   directories:
     - "node_modules"
     - "src"
+notifications:
+  - email: false

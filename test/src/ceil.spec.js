@@ -1,7 +1,7 @@
 import pkg from 'chai';
 const expect = pkg.expect;
 
-import ceil from "../src/ceil.js";
+import ceil from "../../src/ceil.js";
 
 describe("ceil.js test cases", () => {
     it("should Computes number rounded up to precision" , () =>  {

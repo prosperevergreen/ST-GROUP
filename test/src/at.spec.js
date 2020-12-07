@@ -16,7 +16,6 @@ describe ("at",() => {
     });
     it(" throws error",function(){
      try {const result = at(object,['a[0].b.c', NaN]);
-    //console.log(result);}
     catch(e){
         console.log(e);
     }
