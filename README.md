@@ -1,7 +1,5 @@
-[![Coverage Status](https://coveralls.io/repos/github/prosperevergreen/ST-GROUP/badge.svg?branch=prosper)](https://coveralls.io/github/prosperevergreen/ST-GROUP?branch=prosper)
-
 # Student template
-
+[![Coverage Status](https://coveralls.io/repos/github/prosperevergreen/ST-GROUP/badge.svg?branch=prosper)](https://coveralls.io/github/prosperevergreen/ST-GROUP?branch=prosper)
 ## Purpose of this repository
 
 This is a project template for students participating in Software Testing course
