@@ -1,5 +1,5 @@
 # Student template
-[![Coverage Status](https://coveralls.io/repos/github/prosperevergreen/ST-GROUP/badge.svg?branch=prosper)](https://coveralls.io/github/prosperevergreen/ST-GROUP?branch=prosper) [![Build Status](https://travis-ci.org/prosperevergreen/ST-GROUP.svg?branch=main)](https://travis-ci.org/prosperevergreen/ST-GROUP)
+[![Coverage Status](https://coveralls.io/repos/github/prosperevergreen/ST-GROUP/badge.svg?branch=main)](https://coveralls.io/github/prosperevergreen/ST-GROUP?branch=main) [![Build Status](https://travis-ci.org/prosperevergreen/ST-GROUP.svg?branch=main)](https://travis-ci.org/prosperevergreen/ST-GROUP)
 
 
 ## Purpose of this repository
