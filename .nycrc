@@ -2,9 +2,11 @@
   "all": true,
   "require": ["@babel/register"],
   "include": [
-    "test/**/**.spec.js"
+    "test/**/**.spec.js",
+    "src/*.js"
   ],
   "exclude": [
+    "src/.internal/*.js"
   ],
   "reporter": [
       "text",
