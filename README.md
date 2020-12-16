@@ -1,6 +1,8 @@
 # Student template
 [![Coverage Status](https://coveralls.io/repos/github/prosperevergreen/ST-GROUP/badge.svg?branch=main)](https://coveralls.io/github/prosperevergreen/ST-GROUP?branch=main) [![Build Status](https://travis-ci.org/prosperevergreen/ST-GROUP.svg?branch=main)](https://travis-ci.org/prosperevergreen/ST-GROUP)
 
+## Test Coverage Report
+The AWS S3 bucket for the HTML test reports is hosted in us-east-1 region for the best compatibility: [S3 AWS test coverage report](http://software-testing-report.s3-website-us-east-1.amazonaws.com/). 
 
 ## Purpose of this repository
 
