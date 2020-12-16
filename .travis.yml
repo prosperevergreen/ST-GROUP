@@ -9,7 +9,7 @@ script:
 addons:
   artifacts:
     target_paths:
-    - /coverage
+    - /
     debug: true
 
 cache:
