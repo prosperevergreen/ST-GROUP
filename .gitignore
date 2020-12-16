@@ -175,3 +175,4 @@ jsdoc_report.html
 lib
 
 .DS_Store
+.coveralls

@@ -6,6 +6,12 @@ install:
 script:
   - npm run coverage
   - npm run coveralls
+addons:
+  artifacts:
+    target_paths:
+    - /coverage
+    debug: true
+
 cache:
   directories:
     - "node_modules"
